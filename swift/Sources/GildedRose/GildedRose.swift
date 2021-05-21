@@ -1,8 +1,8 @@
 
 public class GildedRose {
-    var items:[Item]
+    var items: [Item]
     
-    required public init(items:[Item]) {
+    public required init(items:[Item]) {
         self.items = items
     }
     
