@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-object TextTestFixture {
+object GildedRoseApplication {
 
     @JvmStatic
     fun main(args: Array<String>) {
