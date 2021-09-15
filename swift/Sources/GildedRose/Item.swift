@@ -1,5 +1,5 @@
 
-public class Item {
+public struct Item {
     var name: String
     var sellIn: Int
     var quality: Int
