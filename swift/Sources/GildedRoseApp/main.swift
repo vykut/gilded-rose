@@ -9,7 +9,6 @@ let items = [
     Item(name: "Backstage passes to a TAFKAL80ETC concert", sellIn: 15, quality: 20),
     Item(name: "Backstage passes to a TAFKAL80ETC concert", sellIn: 10, quality: 49),
     Item(name: "Backstage passes to a TAFKAL80ETC concert", sellIn: 5, quality: 49),
-    // this conjured item does not work properly yet
     Item(name: "Conjured Mana Cake", sellIn: 3, quality: 6)]
 
 let app = GildedRose(items: items);
@@ -26,5 +25,5 @@ for i in 0..<days {
         print(item);
     }
     print("");
-    app.updateQuality();
+    app.dayHasPassed()
 }
